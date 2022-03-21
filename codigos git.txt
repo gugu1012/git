@@ -1,0 +1,30 @@
+git init -> cria um repositorio git dentro do diretorio 
+git diff-> Mostra as mudanças feitas no arquivo
+git add-> adiciona no container o arquivo alterado
+git add . -> adiciona todos arquivos da pasta
+git restore-> restalra o arquivo para a versão sem as mudanças(funciona apenas quando o arquivo não é adicionado)
+git status-> mostra o status dos containers
+git reset-> remove as alterações feitas em arquivo salvo dentro do conteiner
+git log-> mostra todos os commits feitos 
+git commit -am(ou -m)"msm do commit"-> cria um novo commit
+git long --oneline->  mesma função que o 'git log' mas simplificado
+git reset --heard nomeDaHarsh -> remove o commit
+git branch-> indica o ramo que está trabalhando
+git checkout -b nomeRamo -> cria uma nova ramificação do ramo "master"
+				  - O novo ramo herda todos os commits do ramo "master"
+touch nomeArquivo.extençãoArquivo-> cria um arquivo no diretório(pasta)
+git status -> retorna o status do ramo(branch)
+git checkout master -> retorna ao ramo(branch) principal.
+git log --oneline(ou sem o --oneline) --graph --all -> Mostra o grafico de todos os ramos(branch) do repositório
+(se o terminal travar precionar a tecla q)
+git merge nomeRamo -> fundi o ramo selecionado ao ramo master
+git remote -> verifica se existe um repositorio online
+git remote add origin https://github.com/gugu1012/git.git -> adiciona um repositorio remoto
+ git branch -M main -> alguma coisa q eu não sei oq é
+git push -u origin main -> Aloca os arquivos locais no remositorio remoto "origin"
+git clone URL -> clona um projeto
+mkdir nomePasta -> cria uma nova pasta
+git push -> Envia as alterações para o repositorio remoto
+git pull -> incorpora as alterações feitas no repositorio remoto(gitHUB) no repositorio local
+fork(GITHUB) -> Copia um projeto, de outra pessoano, e envia para o seu repositorio
+pull request(GITHUB) -> Faz uma requisição para as alterações feitas(fork) serem incorporadas do projeto original
