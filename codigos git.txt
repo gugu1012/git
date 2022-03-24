@@ -19,7 +19,7 @@ git log --oneline(ou sem o --oneline) --graph --all -> Mostra o grafico de todos
 (se o terminal travar precionar a tecla q)
 git merge nomeRamo -> fundi o ramo selecionado ao ramo master
 git remote -> verifica se existe um repositorio online
-git remote add origin https://github.com/gugu1012/git.git -> adiciona um repositorio remoto
+git remote add origin -> adiciona um repositorio remoto
  git branch -M main -> alguma coisa q eu não sei oq é
 git push -u origin main -> Aloca os arquivos locais no remositorio remoto "origin"
 git clone URL -> clona um projeto
@@ -28,3 +28,4 @@ git push -> Envia as alterações para o repositorio remoto
 git pull -> incorpora as alterações feitas no repositorio remoto(gitHUB) no repositorio local
 fork(GITHUB) -> Copia um projeto, de outra pessoano, e envia para o seu repositorio
 pull request(GITHUB) -> Faz uma requisição para as alterações feitas(fork) serem incorporadas do projeto original
+
